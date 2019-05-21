@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     background-color: #000000;
 }
 
@@ -104,6 +105,3 @@ li {
     color: #991188;
 }
 
-.project-info span {
-    letter-spacing: 2px;
-}
