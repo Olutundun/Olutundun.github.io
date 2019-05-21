@@ -104,11 +104,6 @@ li {
     color: #991188;
 }
 
-.project-info img {
-    height: 120px;
-    width: 120px;
-}
-
 .projects-container {
     display: flex;
     flex-direction: column;
