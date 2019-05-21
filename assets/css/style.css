@@ -99,3 +99,11 @@ li {
     box-shadow: rgba(172, 172, 180, .2) 0 2px 2px, rgba(172, 172, 180, .2) 0 4px 4px, rgba(172, 172, 180, .2) 0 8px 8px, rgba(172, 172, 180, .2) 0 16px 16px, rgba(172, 172, 180, .2) 0 32px 32px, rgba(172, 172, 180, .2) 0 64px 64px;
     font-size: .9rem;
 }
+
+.project-info a {
+    color: #991188;
+}
+
+.project-info span {
+    letter-spacing: 2px;
+}
