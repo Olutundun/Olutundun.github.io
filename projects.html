@@ -13,18 +13,7 @@
 </head>
 
 <body>
-    <main class="main">
-        <aside class="sidebar">
-            <nav class="project-nav">
-                <ul>
-                    <li class="active"><a href="#">BURGER</a></li>
-                    <li><a href="#">BAMAZON</a></li>
-                    <li><a href="#">CHORE BUDDY</a></li>
-                    <li><a href="#">WORD GUESS GAME</a></li>
-                    <li><a href="#">TRAIN SCHEDULER</a></li>
-                </ul>
-            </nav>
-        </aside>
+    <div>
         <ul class="nav justify-content-end">
             <li class="nav-item">
                 <a class="nav-link" href="index.html">HOME</a>
@@ -36,44 +25,55 @@
                 <a class="nav-link" href="contact.html">CONTACT</a>
             </li>
         </ul>
-        <section class="project-info">
-            <div class="projects-container">
-                <div>
-                    <p>BURGER</p>
-                    <img src="assets/img/burger.jpg" alt="burger" height="600" width="800" />
-                    <p>A restaurant app that lets users input the names of burgers they'd like to eat.
+    </div>
+    <h1 class="welcome">Welcome to my Workstation!</h1>
+    <section class="cards-wrapper">
+        <div class="card">
+            <div class="card-grid-space">
+                <img src="assets/img/burger.jpg" height="250" class="card-img-top" alt="picture of a burger">
+                <div class="card-body">
+                    <p class="card-text">A restaurant app that lets users input the names of burgers they'd like to eat.
                     </p>
-                    <a href="https://tundun-burger.herokuapp.com/burgers">click to view DEMO!</a>
-                    <a href="https://github.com/Olutundun/burger-">click to view REPO!</a>
-                </div>
-                <div>
-                    <p>BAMAZON</p>
-                    <p>This is a CLI application that uses MYSQL database and inquirer npm packages for data input and
-                        storage and coded using node.js. It is an Amazon-like storefront that takes in orders from
-                        customers
-                        and
-                        depletes stock from the store's inventory.</p>
-                    <a href="https://github.com/Olutundun/bamazon">click to view REPO!</a>
-                </div>
-                <div>
-                    <p>CHORE BUDDY</p>
-                    <img src="assets/img/chore.JPG" alt="login page" height="600" width="800" />
-                    <p>This is an app that allows families to create chore lists, display the list of users and their
-                        associated chores, update the list by marking chores as they are completed, and then deleting
-                        them.</p>
-                    <a href="https://degoba.herokuapp.com/">click to view DEMO!</a>
-                    <a href="https://github.com/Olutundun/Project-2">click to view REPO!</a>
-                </div>
-                <div>
-                    <p>Word Guess Game</p>
-                    <p>This app randomly picks a letter, and the user has to guess which letter the app chose.</p>
-                    <a href="https://github.com/Olutundun/Word-Guess-Game">click to view REPO!</a>
+                    <a href="https://tundun-burger.herokuapp.com/burgers" class="card-link">DEMO</a>
+                    <a href="https://github.com/Olutundun/burger-" class="card-link">REPO</a>
                 </div>
             </div>
-        </section>
-        <a target="_blank" href="https://drive.google.com/file/d/1HPQh5qv3b6SxnVJ4H5YRsMgQre1qV2IZ/view?usp=sharing">
-            <button class="resume-btn">Resume</button></a>
-
+        </div>
+        <div class="card">
+            <div class="card-grid-space">
+                <img src="assets/img/bamazon.jpg" class="card-img-top" alt="cli">
+                <div class="card-body">
+                    <p class="card-text">This is a CLI application that uses MYSQL database and inquirer npm packages
+                        for data input and
+                        storage and coded using node.js. It is an Amazon-like storefront.</p>
+                    <a href="https://github.com/Olutundun/bamazon" class="card-link">REPO</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-grid-space">
+                <img src="assets/img/chore.JPG" class="card-img-top" alt="log in page">
+                <div class="card-body">
+                    <p class="card-text">This is an app that allows families to create chore lists, display the list of
+                        users and their
+                        associated chores, update the list by marking chores as they are completed, and then deleting
+                        them.</p>
+                    <a href="https://degoba.herokuapp.com/" class="card-link">DEMO</a>
+                    <a href="https://github.com/Olutundun/Project-2" class="card-link">REPO</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-grid-space">
+                <img src="assets/img/chore.JPG" class="card-img-top" alt="instructions">
+                <div class="card-body">
+                    <p class="card-text">This app gives players ten multiple choice questions and thiry seconds to
+                        finish the quiz.</p>
+                    <a href="hhttps://github.com/Olutundun/TriviaGame" class="card-link">REPO</a>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
