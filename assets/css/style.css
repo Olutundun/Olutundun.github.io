@@ -17,6 +17,7 @@ li {
 #bio {
   float: relative;
   letter-spacing: 1px;
+  font-size: 20px;
 }
 
 #pic {
@@ -247,7 +248,8 @@ footer {
 }
 
 .nav-link {
-  color: #081868;
+  color: #17180d;
+  font-weight: bold;
 }
 
 .title {
@@ -256,4 +258,13 @@ footer {
 
 .card-body {
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contact {
+    color: #1a1407;
+    margin: 2em;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 3px;
+    font-size: 20px;
 }
